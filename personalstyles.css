@@ -1,0 +1,166 @@
+/* intro section */
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  background-image: url("images/fuji.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.intro-name{
+  color: #D70F0F;
+  font-family: 'Charm';
+  font-size: 7vw;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 1em;
+}
+
+.intro-h1{
+  color: #D70F0F;
+  font-family: 'open-Sans';
+  font-weight: bolder;
+  font-size: 4vw;
+  text-align: center;
+}
+
+/* self section */
+
+.self{
+  background-color: #EEF2FE;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.who{
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+.who-p{
+  font-family: 'open-Sans';
+  text-align: left;
+  position: relative;
+  padding: 25px 20% 15px;
+}
+
+/* hobbies section */
+.hobbies{
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.hobbies-head{
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+.img1-heading{
+  font-family: 'Open-Sans';
+  font-size: 30px;
+  text-align: center;
+}
+
+.img2-heading{
+  font-family: 'Open-Sans';
+  font-size: 30px;
+  text-align: center;
+}
+
+.img3-heading{
+  font-family: 'Open-Sans';
+  font-size: 30px;
+  text-align: center;
+}
+
+.img4-heading{
+  font-family: 'Open-Sans';
+  font-size: 30px;
+  text-align: center;
+}
+
+/* projects section */
+.projects{
+  background-color: #EEF2FE;
+  text-align: center;
+  font-family: 'Charm';
+}
+
+.projects-h1{
+  font-family: 'Roboto';
+  margin-bottom: 100px;
+}
+
+
+
+/* Career field */
+.looking{
+  background-color: black;
+  color: white;
+}
+
+.looking-h1{
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+.looking-p1{
+  font-family: 'Open-Sans';
+  text-align: left;
+  position: relative;
+  padding: 25px 20% 15px;
+}
+
+.looking-p2{
+  font-family: 'Open-Sans';
+  font-size: 1.5rem;
+  text-align: center;
+  position: relative;
+  padding: 25px 20% 15px;
+}
+
+.button-panel{
+  position: relative;
+  padding: 10px 41%;
+}
+
+.resume-button{
+  font-family: 'Open-Sans';
+}
+
+.contact-button{
+  font-family: 'Open-Sans';
+}
+
+.button-style{
+  background-color: white;
+  color: black;
+  border: 2px solid #1966CB;
+}
+.button-style:hover{
+  background-color: #1966CB;
+  color: white;
+}
+
+/* footer section */
+.footer{
+  background-color: black;
+  color: white;
+  padding-bottom: 2px;
+  padding-top: 20px;
+}
+
+.footer-list{
+  font-family: 'open-Sans';
+  font-size: .9rem;
+}
+
+.resume-download{
+  display: inline-block;
+  position: relative;
+}
