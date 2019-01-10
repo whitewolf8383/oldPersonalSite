@@ -1,31 +1,84 @@
 /* intro section */
-body, html {
-  height: 100%;
-  margin: 0;
-}
-
 .bg {
   background-image: url("images/fuji.jpg");
   height: 100%;
   background-position: center;
-  background-repeat: no-repeat;
+
   background-size: cover;
 }
 
-.intro-name{
+.intro-name {
   color: #D70F0F;
   font-family: 'Charm';
   font-size: 7vw;
   font-weight: bold;
-  padding-top: 33vh;
+  padding-top: 250px;
 }
 
-.intro-h1{
+.intro-h1 {
   color: #D70F0F;
   font-family: 'open-Sans';
   font-size: 4vw;
   font-weight: bolder;
-  padding-top: 12vh;
+  padding-top: 140px;
+  padding-bottom: 160px;
+}
+
+@media (max-width: 1200px){
+  .intro-name {
+    color: #D70F0F;
+    font-family: 'Charm';
+    font-size: 7vw;
+    font-weight: bold;
+    padding-top: 250px;
+  }
+
+  .intro-h1 {
+    color: #D70F0F;
+    font-family: 'open-Sans';
+    font-size: 4vw;
+    font-weight: bolder;
+    padding-top: 120px;
+    padding-bottom: 160px;
+  }
+}
+
+@media (max-width: 880px){
+  .intro-name {
+    color: #D70F0F;
+    font-family: 'Charm';
+    font-size: 8vw;
+    font-weight: bold;
+    padding-top: 225px;
+  }
+
+  .intro-h1 {
+    color: #D70F0F;
+    font-family: 'open-Sans';
+    font-size: 4vw;
+    font-weight: bolder;
+    padding-top: 90px;
+    padding-bottom: 160px;
+  }
+}
+
+@media (max-width: 576px){
+  .intro-name {
+    color: #D70F0F;
+    font-family: 'Charm';
+    font-size: 11vw;
+    font-weight: bold;
+    padding-top: 230px;
+  }
+
+  .intro-h1 {
+    color: #D70F0F;
+    font-family: 'open-Sans';
+    font-size: 7vw;
+    font-weight: bolder;
+    padding-top: 90px;
+    padding-bottom: 160px;
+  }
 }
 
 /* self section */
