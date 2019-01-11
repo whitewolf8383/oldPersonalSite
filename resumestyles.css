@@ -1,0 +1,173 @@
+.resume-intro {
+  background-image: url(images/beautiful-bridge.jpg);
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+.intro-pic {
+  padding-top: 125px;
+  padding-bottom: 50px;
+}
+
+.intro-txt {
+  color: white;
+  font-family: 'Charm';
+  font-weight: bold;
+  font-size: 8vh;
+  padding-bottom: 30px;
+}
+
+.resume-technologies {
+  background-color: #EEF2FE;
+}
+
+.tech {
+  font-family: 'Roboto';
+  font-weight: bold;
+  padding-left: 120px;
+  padding-top: 30px;
+}
+
+.tech-div {
+  font-family: 'Open-Sans';
+  font-size: 5vh;
+  text-align: right;
+  padding-right: 150px;
+  position: relative;
+  bottom: 50px;
+}
+
+@media (max-width: 880px) {
+  .resume-technologies {
+    text-align: center;
+  }
+
+  .tech {
+    padding-left: 0;
+  }
+
+  .tech-div {
+    text-align: center;
+    padding-right: 0;
+    position: static;
+    padding-bottom: 30px;
+  }
+}
+
+/* Work section */
+.work-div {
+  text-align: right;
+  padding-right: 100px;
+  position: relative;
+  bottom: 40px;
+}
+
+.work-para {
+  font-family: 'Open-Sans';
+  display: inline-block;
+  width: 550px;
+  text-align: left;
+}
+
+@media (max-width: 1200px) {
+  .resume-workxp {
+    text-align: center;
+  }
+
+  .tech {
+    padding-left: 0;
+  }
+
+  .work-div {
+    text-align: center;
+    padding-right: 0;
+    padding-bottom: 30px;
+    position: static;
+  }
+}
+
+@media (max-width: 600px) {
+  .work-para {
+    width: 400px;
+  }
+
+  .work-div {
+    padding-bottom: 30px;
+  }
+}
+
+/*education section*/
+.resume-education {
+  background-color: #EEF2FE;
+}
+
+.edu-div {
+  text-align: right;
+  padding-right: 100px;
+  position: relative;
+  bottom: 40px;
+}
+
+.edu-para {
+  font-family: 'Open-Sans';
+  display: inline-block;
+  width: 550px;
+  text-align: left;
+}
+
+@media (max-width: 1200px) {
+  .resume-education {
+    text-align: center;
+  }
+
+  .tech {
+    padding-left: 0;
+  }
+
+  .edu-div {
+    text-align: center;
+    padding-right: 0;
+    position: static;
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .edu-div {
+    padding-bottom: 30px;
+  }
+
+  .edu-para {
+    width: 400px;
+  }
+}
+
+/*footer section */
+.resume-footer {
+  background-color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.resume-download {
+  display: inline-block;
+  position: relative;
+  font-family: 'Open-Sans';
+}
+
+.contact-button {
+  font-family: 'Open-Sans';
+}
+
+.button-style {
+  background-color: white;
+  color: black;
+  border: 2px solid #1966CB;
+}
+
+.button-style:hover {
+  background-color: #1966CB;
+  color: white;
+}
