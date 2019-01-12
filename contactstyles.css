@@ -1,0 +1,115 @@
+.upper{
+  background-image: url(images/cold-forest.jpg);
+  max-width: 100%;
+  min-height: 400px;
+  background-position: center;
+  background-size: cover;
+}
+
+.upper-img{
+  border-radius: 40%;
+  border-width: 16px;
+  border-color: white;
+  border-style: solid;
+  position: relative;
+  top: 325px;
+  left: 25px;
+}
+
+/* info section */
+
+.info-intro{
+  position: relative;
+  top: 175px;
+  left: 42px;
+}
+
+.info{
+  border-width: 0;
+  border-right-width: 6px;
+  border-style: dotted;
+  border-color: black;
+  display: inline-block;
+  padding-right: 10vw;
+  position: relative;
+  top: 185px;
+  left: 42px;
+}
+
+.contact{
+  position: relative;
+  left: 50vw;
+  bottom: 200px;
+}
+
+@media (max-width: 1000px){
+  .upper{
+    text-align: center;
+  }
+  .upper-img{
+    border-radius: 40%;
+    border-width: 16px;
+    border-color: white;
+    border-style: solid;
+    position: relative;
+  }
+
+  .info-section{
+    text-align: center;
+    padding-bottom: 250px;
+  }
+
+  .info-intro{
+    position: relative;
+    top: 175px;
+  }
+
+  .info{
+    border: none;
+    padding: 0;
+    position: relative;
+  }
+
+  .contact{
+    position: relative;
+    left: 0;
+    bottom: -200px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/* footer section */
+.footer{
+  background-color: black;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.resume-download {
+  display: inline-block;
+  position: relative;
+  font-family: 'Open-Sans';
+}
+
+.contact-button {
+  font-family: 'Open-Sans';
+}
+
+.button-style {
+  background-color: white;
+  color: black;
+  border: 2px solid #1966CB;
+}
+
+.button-style:hover {
+  background-color: #1966CB;
+  color: white;
+}
